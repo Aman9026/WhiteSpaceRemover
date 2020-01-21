@@ -1,4 +1,5 @@
 #created on 21JAN2020
+#this script has been tested
 #!/bin/bash
 find . -name '* *' | while read fname #to read all the files having space in there name
 
