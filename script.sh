@@ -1,8 +1,9 @@
+#created on 21JAN2020
 #!/bin/bash
-find . -name '* *' | while read fname 
+find . -name '* *' | while read fname #to read all the files having space in there name
 
 do
-        new_fname=`echo $fname | tr " " "_"`
+        new_fname=`echo $fname | tr " " "_"` #tr is used here to replace space with an underscore
 
         if [ -e $new_fname ]
         then
